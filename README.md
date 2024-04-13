@@ -52,7 +52,7 @@ To run this program, you need to run `python3 apply.py your_first_segment_mail_a
 
 If you find this AI-driven job application bot helpful or interesting, please consider giving it a star on GitHub. Your support helps to increase the visibility of the project and encourages future developments and improvements. Just click on the star icon at the top of the page – it means a lot!
 
-## License
+##⚖️ License
 
 This project is licensed under the [Apache License](LICENSE).
 
