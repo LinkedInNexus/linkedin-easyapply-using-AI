@@ -2,11 +2,11 @@
 
 ![AI Robot Applying to Jobs](https://github.com/srikar-kodakandla/linkedin-easyapply-using-AI/blob/main/image.png)
 
-##📌 Overview
+## 📌 Overview
 
 This project leverages AI, specifically GPT models, to automate job applications on LinkedIn. It intelligently applies to jobs with the "Easy Apply" option and auto-fills application forms behalf of you.
 
-##🚀 Getting Started
+## 🚀 Getting Started
 
 Before diving into the project, you'll need to create two essential files with the provided template:
 
@@ -36,7 +36,7 @@ The JSON file is crucial for tailoring the application process to your preferenc
 - `chatgpt_timeout`: Time in seconds (default 120) to wait before retrying a request in case of an error with ChatGPT response extraction.
 - `GPT_backend_selection`: Choose between "chatgpt" and "gemini". Use "chatgpt" for ChatGPT token or "gemini" for Gemini API key.
 
-###🔧 Launching the program
+### 🏁 Launching the program
 
 To run this program, you need to run `python3 apply.py your_first_segment_mail_address`, Here the command line argument is the initial segment of your email address used on Linkedin. For example, if your email address is kodakandlasrikar99@gmail.com, then you will have to run `python3 apply.py kodakandlasrikar99`
 
@@ -52,7 +52,7 @@ To run this program, you need to run `python3 apply.py your_first_segment_mail_a
 
 If you find this AI-driven job application bot helpful or interesting, please consider giving it a star on GitHub. Your support helps to increase the visibility of the project and encourages future developments and improvements. Just click on the star icon at the top of the page – it means a lot!
 
-##⚖️ License
+## ⚖️ License
 
 This project is licensed under the [Apache License](LICENSE).
 
