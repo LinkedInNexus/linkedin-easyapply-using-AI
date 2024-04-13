@@ -2,20 +2,20 @@
 
 ![AI Robot Applying to Jobs](https://github.com/srikar-kodakandla/linkedin-easyapply-using-AI/blob/main/image.png)
 
-## Overview
+##📌 Overview
 
 This project leverages AI, specifically GPT models, to automate job applications on LinkedIn. It intelligently applies to jobs with the "Easy Apply" option and auto-fills application forms behalf of you.
 
-## Getting Started
+##🚀 Getting Started
 
 Before diving into the project, you'll need to create two essential files with the provided template:
 
-1. **Text File:** Contains your resume and other relevant details to fill LinkedIn's Easy Apply forms.  The filename for the text file should correspond to the initial segment of your email address used on LinkedIn. For example, if your email address is kodakandlasrikar99@gmail.com, the file should be named kodakandlasrikar99.txt.
+1. **Text File:** Contains your resume and other relevant details to fill LinkedIn's Easy Apply forms.  For guidance, refer to `kodakandlasrikar99.txt`. The filename for the text file should correspond to the initial segment of your email address used on LinkedIn. For example, if your email address is kodakandlasrikar99@gmail.com, the file should be named kodakandlasrikar99.txt.
 2. **JSON File:** Houses various configuration settings for the job application process. The filename for the JSON file should correspond to the initial segment of your email address used on LinkedIn. For example, if your email address is kodakandlasrikar99@gmail.com, the file should be named kodakandlasrikar99.json.
 
 Refer to the example files in this project for guidance on creating your own. As a Machine Learning Engineer, I have crafted both the JSON and Text files specifically for applying to Machine Learning roles, aligning closely with my preferences. Feel free to use these as templates to adapt for other roles.
 
-### 🗂 JSON File Configuration
+### 🛠️ JSON File Configuration
 
 The JSON file is crucial for tailoring the application process to your preferences. Below is the explanation of each key:
 
@@ -36,7 +36,7 @@ The JSON file is crucial for tailoring the application process to your preferenc
 - `chatgpt_timeout`: Time in seconds (default 120) to wait before retrying a request in case of an error with ChatGPT response extraction.
 - `GPT_backend_selection`: Choose between "chatgpt" and "gemini". Use "chatgpt" for ChatGPT token or "gemini" for Gemini API key.
 
-### Running this program
+###🔧 Launching the program
 
 To run this program, you need to run `python3 apply.py your_first_segment_mail_address`, Here the command line argument is the initial segment of your email address used on Linkedin. For example, if your email address is kodakandlasrikar99@gmail.com, then you will have to run `python3 apply.py kodakandlasrikar99`
 
