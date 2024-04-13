@@ -40,7 +40,7 @@ The JSON file is crucial for tailoring the application process to your preferenc
 
 To run this program, you need to run `python3 apply.py your_first_segment_mail_address`, Here the command line argument is the initial segment of your email address used on Linkedin. For example, if your email address is kodakandlasrikar99@gmail.com, then you will have to run `python3 apply.py kodakandlasrikar99`
 
-### 🚀 Quick Tips:
+### 📝 Note:
 
 
 - The project uses the ChatGPT web UI for response extraction, offering a cost-effective solution.
@@ -56,7 +56,7 @@ If you find this AI-driven job application bot helpful or interesting, please co
 
 This project is licensed under the [Apache License](LICENSE).
 
-### Important Warning ⚠️
+### ⚠️ Important Warning ⚠️
 
 LinkedIn may block your account if it detects automation tools being used without permission. This has happened to me several times. To mitigate this risk, the code includes sleep intervals and uses an undetected-chromedriver, aiming to reduce the chances of detection by LinkedIn. However, please be aware that LinkedIn might still detect and permanently block your account. **I am not responsible for any account suspensions or bans that may occur as a result of using this tool.**
 
